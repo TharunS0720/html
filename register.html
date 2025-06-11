@@ -1,18 +1,16 @@
 <html>
+<title>
+Registration form
+</title>
 <style>
 body{
-background-color:violet;
-}
-button{
-background-color:blue;
-color:white;
+background-color:lightblue;
 }
 fieldset{
-align:center;
 radius:20px;
 background-color:white;
-width:300px;
-height:150px;
+width:400px;
+height:450px;
 }
 .header {
   overflow: hidden;
@@ -41,12 +39,31 @@ height:150px;
 }
 
 .header a.active {
-  background-color:blue;
+  background-color: blue;
   color: white;
 }
 
 .header-right {
   float: right;
+}
+.input{
+border-radius:5px;
+width:300px;
+height:40px;
+}
+p{
+text-align:center;
+color:white;
+font-size:100px;
+}
+button{
+width:270px;
+height:35px;
+background-color:blue;
+color:white;
+}
+U{
+color:blue;
 }
 footer{
 background-color:gray;
@@ -54,34 +71,39 @@ text-align:center;
 }
 </style>
 <body>
-<div class="header">
+ <div class="header">
   <a href="#default" class="logo"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ97BQBXsW2EHtKT7lFizOQywJKx5mJy6zPkPgiGClk3L4mob6Fc_Hghfb5RfI4iMQFjOs&usqp=CAU" height="40" width="40">Ashok leyland</a>
   <div class="header-right">
     <a href="home.html">Home</a>
-    <a class="active" href="register.html">Register</a>
+    <a class="active" href="register.form">Register</a>
     <a href="contact.html">Contact</a>
-    <a href="about.html">About</a>
+    <a href="about.html">About us</a>
     <a href="moreinfo.html">More info</a>
   </div>
 </div>
-<br><br><br><br><br>
-<form>
-<center>
+<table align="center">
+<tr align="center">
+<td>
 <fieldset>
-<br>
-<label>Email</label>
-<input type="text" id="email" name="email" placeholder="Enter your Email"><br><br>
-<label>Password</label>
-<input type"text" id="pass" name="pass" placeholder="Create password"><br><br>
-<button onclick="history.back()">Back</button>
-<button>Login now</button>
+<h1><U>Re</U>gistration form</h1><br>
+<input class="input" type="text" placeholder="Enter your name"><br><br>
+<input class="input" type="text" placeholder="Enter your Email"><br><br>
+<input class="input" type="text" placeholder="Create password"><br><br>
+<input class="input" type="text" placeholder="Confirm password"><br><br>
+<input type="checkbox"><label>I accept all term & condition</label><br><br>
+<button>Register now</button><br><br>
+<label>Already have an account?</label><a href="regform.html">Login now</a>
 </fieldset>
-</center>
-</form><br><br><br><br><br><br>
+</td>
+<td>
+<p><font color="red" face="algerian"> Ashok leyland </font><br>
+<font color="black" face="algerian">Sign up</font><br><font color="red" face="algerian"> Form</font></p>
+<td>
+</tr>
+</table>
 <footer>Ashok Leyland Limited is an Indian multinational automotive manufacturer, with its headquarters in Chennai. It is now owned by the Hinduja Group. It was founded in 1948 as Ashok Motors, which became Ashok Leyland in the year 1955 after collaboration with British Leyland.<br>
 Contact :<font color="red">  044 2220 6000 </font><br>
 Email ID :<font color="red">  ashokleyland01chennai@gmail.com </font><br>
 location :<a href="https://maps.app.goo.gl/7cy8BRfWRYagHtrw5"><font color="lightgreen">click here</font></a>
 </footer>
-</body>
 </html>
